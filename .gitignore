@@ -2,7 +2,7 @@
 
 #include <studio.h>
 
-
+c语言基础
 int main ()
 {
       int a = 0;
@@ -18,3 +18,77 @@ int main ()
 //书 - 复杂对象
 //
 //名字+身高+年龄+身份号码+...
+
+
+if语句
+Example 1 
+
+int main()
+{
+    int age = 10;
+    if(age<18)
+         printf("未成年\n");
+    else if(age>=18 && age<28）
+         printf(“青年\n”)；
+    else if(age>=28 && age<50)
+         printf(“壮年\n”)；
+    else if(age>=50 && age<90)
+         printf("老年\n");
+    else
+         printf("永年\n");
+    return 0;
+}
+
+Example 2
+书写形式的对比
+
+//代码1
+if（condition）{
+     return x;
+}
+return y;
+
+//代码2
+if（condition）{
+     return x;
+}
+else
+{
+     return y;
+}
+
+//代码3
+int num = 1;
+if(num == 5) // "=="是相等,"="是赋值
+{
+    printf("hello\n");
+}
+
+//代码4
+int num = 1;
+if(5 == num) // "=="是相等,"="是赋值
+{
+    printf("hello\n");
+}
+
+Exercise 1:
+打印1-100的奇数
+
+Answer 1:
+int main（）
+{ 
+int i = 1;
+while(i <= 100)
+    if(i%2 = 1)
+        printf(“%d”，i);
+    i++;
+}
+
+Answer 2:
+int main（）
+{ 
+int i = 1;
+while(i <= 100)
+printf("%d", i);
+i+ = 2;
+}
