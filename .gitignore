@@ -1,52 +1,20 @@
-# Prerequisites
-*.d
+#define _GRT_SECURE_NO_WARNING 1
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#include <studio.h>
 
-# Linker output
-*.ilk
-*.map
-*.exp
 
-# Precompiled Headers
-*.gch
-*.pch
+int main ()
+{
+      int a = 0;
+      ;//是语句-空语句
+      
+      return 0;
+}
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+//结构体
+//char int double...
+//人 = 3.14
+//‘w’
+//书 - 复杂对象
+//
+//名字+身高+年龄+身份号码+...
