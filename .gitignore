@@ -304,6 +304,42 @@ int main()
    return 0;
 }
 
+Exercise3
+//对前n项的阶乘求和
+A1:int main()
+{
+   int i,s,n,n1  ;
+   int s = 1;
+   int sum;
+   scacnf("%d",&n1);//不考虑溢出的情况
+   for(n=1;n<=n1;n++)
+   {
+       ret = 1;    
+       for(i=1;i<n;i++)
+       {
+        s = i*s;
+       } 
+       sum = sum + s;
+   }
+   printf("%d",s);
+   return 0;
+}
+
+A2:int main()
+{
+   int i,s,n;
+   int s = 1;
+   int sum;
+   scacnf("%d",&n1);//不考虑溢出的情况
+   for(i=1;i<=n;i++)
+   {
+       s = i*s;
+       sum = sum + s;
+   }
+   printf("%d",s);
+   return 0;
+}
+
 do while语句
 int main()
 {
