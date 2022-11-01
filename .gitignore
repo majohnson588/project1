@@ -166,12 +166,39 @@ Example 3:
 int main()
 {
       int ch = 0;
-      //EOF = end of files -> -1
       while(ch=getchar() != EOF)
+      //EOF = end of files -> -1
       {
             putchar(ch);
       }
       returm 0;
+}
+
+
+getchar语句
+int main
+{
+int ret = 0;
+int ch = 0;
+char password[20] = [0];
+printf("请输入密码");
+scanf("%s",password);//输入密码并存放在数组中
+//缓冲区还剩一个‘\n’
+//读取一下‘\n’
+while((ch=getchar()) != '\n')
+{
+     ;
+}
+printf("请确认（Y/N）:>);
+ret = getchar();//Y/N
+if(ret == 'V')
+{
+     printf("确认成功");
+}
+else
+{
+      printf("
+}
 }
 
 
