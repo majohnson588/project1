@@ -306,7 +306,8 @@ int main()
 
 Exercise3
 //对前n项的阶乘求和
-A1:int main()
+A1:
+int main()
 {
    int i,s,n,n1  ;
    int s = 1;
@@ -325,12 +326,13 @@ A1:int main()
    return 0;
 }
 
-A2:int main()
+A2:
+int main()
 {
    int i,s,n;
    int s = 1;
    int sum;
-   scacnf("%d",&n1);//不考虑溢出的情况
+   scacnf("%d",&n);//不考虑溢出的情况
    for(i=1;i<=n;i++)
    {
        s = i*s;
