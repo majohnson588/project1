@@ -452,7 +452,7 @@ int main（）
     {
           printf("请输入密码:>");
           scanf("%s", password);
-          if(strcmp(password,"123456"))//==不能用来比较两个字符串是否相等，应该使用一个库函数-strcmp
+          if(strcmp(password,"123456")= 0)//==不能用来比较两个字符串是否相等，应该使用一个库函数-strcmp
           {
                printf("登录成功\n");
                break;
