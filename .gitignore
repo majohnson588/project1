@@ -444,7 +444,7 @@ int main()
 }
 
 practise2:
-int main
+int main（）
 {
     int i = 0;
     char password[20] = {0};
@@ -459,7 +459,7 @@ int main
           }
           else
           {    
-               int m = 3-i;
+               int m = 2-i;
                printf("登录失败，还剩%d次机会\n",m);
           }
      }
