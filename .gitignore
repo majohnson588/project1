@@ -355,5 +355,10 @@ int main()
     
         return 0;
  }
+ 
+ array语句
+ {
+ 
+ }
 
 
