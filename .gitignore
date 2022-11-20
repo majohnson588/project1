@@ -256,10 +256,10 @@ int main()
       {
             putchar(ch);
       }
-      returm 0;
+      return 0;
 }
 Exercise1:
-//求24和18的最大公约数
+//求24和18的最大公约数,辗转相除法
 int main()
 {
 int a = 24;
@@ -583,7 +583,7 @@ int main()
    char arr1[] = "welcome to bit!!!!!";
    char arr2[] = "###################";
    int left = 0;
-   //int right = sizeof(arr)/sizeof(arr[0])-2;//err
+   //int right = sizeof(arr1)/sizeof(arr1[0])-2;//err
    int right = strlen(arr1)-1;
    while(left <= right)
    {
@@ -637,7 +637,7 @@ double i;
 int sym = 1;
 for(i=1;i<=100;i++)
     {
-     i = i + 1.0/i;
+     i = (i + 1.0/i)*sym;
      sym = -sym;
     } 
 return 0;
@@ -649,7 +649,8 @@ int main()
 {
     int arr[] = {1,2,3,4,5,6,7,8,9,10};
     int max = arr[0];//最大值
-    int sz = sizeof(arr[])/sizeof(arr[0]);
+    int sz = sizeof(arr)/sizeof(arr[0]);
+    int i;
     for(i=0;i<sz;i++)
     {
     if(arr[i]>max)
